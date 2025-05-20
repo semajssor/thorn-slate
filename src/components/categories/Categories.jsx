@@ -1,4 +1,4 @@
-import "./Categories.styles.scss";
+import "./Categories.scss";
 
 const CategoryItem = ({ category }) => {
 	const { title, imageUrl } = category;

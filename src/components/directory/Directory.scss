@@ -1,0 +1,9 @@
+.directory-container {
+   max-width: 100%;
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: var(--spacing-sm); 
+   padding: var(--spacing-sm); 
+   box-sizing: border-box;}

@@ -1,5 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
-import "./Navigation.styles.scss"
+import "./Navigation.scss"
 
 const Navigation = () => {
 	return (
@@ -18,7 +18,7 @@ const Navigation = () => {
 					<Link className="nav-link" to="/shop">
 						Shop
 					</Link>
-					<Link className="nav-link" to="/sign-in">
+					<Link className="nav-link" to="/auth">
 						Sign In
 					</Link>
 				</nav>

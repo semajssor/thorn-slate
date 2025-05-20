@@ -1,17 +1,50 @@
+:root {
+  --font-primary: "Roboto Condensed", sans-serif;
+  --color-primary: black;
+  --color-secondary: grey;
+  --color-text-light: #4a4a4a;
+  --color-google-blue: #4285f4;
+  --color-google-blue-hover: #357ae8;
+  --border-color: black;
+
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+
+  --border-radius-sm: 5px;
+  --border-radius-md: 8px;
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: var(--font-primary);
   font-optical-sizing: auto;
+  line-height: 1.5;
+  color: var(--color-primary);
 }
 
 a {
   text-decoration: none;
-  color: black
+  color: var(--color-primary);
+  transition: color 0.2s ease-in-out;
+
+  &:hover {
+    color: var(--color-secondary);
+  }
 }
+

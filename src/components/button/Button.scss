@@ -1,0 +1,59 @@
+.button-container {
+   --button-bg: black;
+   --button-color: white;
+   --button-border: none;
+
+   min-width: 2rem;
+   margin-top: 2rem;
+   width: auto;
+   height: 1.5rem;
+   letter-spacing: 0.5px;
+   line-height: 1;
+   padding-inline: 1.5rem;
+   font-size: 1rem;
+   background-color: var(--button-bg);
+   color: var(--button-color);
+   text-transform: capitalize;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 700;
+   border: var(--button-border);
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: var(--border-radius-md); 
+   transition: all 0.2s ease-in-out;
+
+   &:hover {
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   }
+
+   &.google-sign-in {
+      --button-bg: var(--color-google-blue); 
+      --button-color: white;
+      gap: 0.5rem;
+
+      &:hover {
+         --button-bg: var(--color-google-blue-hover);
+         transform: translateY(-2px);
+         box-shadow: 0 4px 8px rgba(66, 133, 244, 0.2);
+      }
+   }
+
+   &.inverted {
+      --button-bg: white;
+      --button-color: black;
+      --button-border: 1px solid black;
+
+      &:hover {
+         --button-bg: black;
+         --button-color: white;
+         --button-border: none;
+         transform: translateY(-2px);
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+   }}
