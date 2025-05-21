@@ -7,17 +7,16 @@ import {
 import Button from "../button/Button";
 import "./SignUpForm.scss";
 
-const SignUpForm = () => {
-	const defaultFormFields = {
-		username: "",
-		email: "",
-		password: "",
-		confirmPassword: "",
-	};
+const defaultFormFields = {
+	username: "",
+	email: "",
+	password: "",
+	confirmPassword: "",
+};
 
+const SignUpForm = () => {
 	const [formFields, setFormFields] = useState(defaultFormFields);
 	const { username, email, password, confirmPassword } = formFields;
-
 
 	const handleSubmit = async (event) => {
 		event.preventDefault();
@@ -28,15 +27,13 @@ const SignUpForm = () => {
 
 		try {
 			const { user } = await createAuthUserWithEmailAndPassword(email, password);
-
 			await createUserDocumentFromAuth(user, { displayName: username });
 			setFormFields(defaultFormFields);
-			
 		} catch (error) {
 			if (error.code === "auth/email-already-in-use") {
 				alert("Cannot create user, email already in use");
 			} else if (error.code === "auth/weak-password") {
-				alert ("Password should be at least 6 characters");
+				alert("Password should be at least 6 characters");
 			} else {
 				console.log("user creation encountered an error", error);
 			}
