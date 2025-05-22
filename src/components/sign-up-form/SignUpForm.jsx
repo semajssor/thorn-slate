@@ -82,7 +82,9 @@ const SignUpForm = () => {
 					name="confirmPassword"
 					value={confirmPassword}
 				/>
-				<Button type="submit">Sign Up</Button>
+				<Button type="submit" style={{ marginTop: "25px" }}>
+					Sign Up
+				</Button>
 			</form>
 		</div>
 	);

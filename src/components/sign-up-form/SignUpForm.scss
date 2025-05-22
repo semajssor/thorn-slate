@@ -1,5 +1,6 @@
-@import '../../styles/forms';
+@use '../../styles/forms';
 
 .sign-up-container {
    @extend .form-container; 
+
 }

@@ -1,11 +1,16 @@
 :root {
   --font-primary: "Roboto Condensed", sans-serif;
-  --color-primary: black;
+  --color-primary: #333;
+  --color-primary-hover: #F8F8FF;
+  --color-primary-inverted: #F8F8FF;
+  --color-primary-inverted-hover: #333;
   --color-secondary: grey;
   --color-text-light: #4a4a4a;
-  --color-google-blue: #4285f4;
-  --color-google-blue-hover: #357ae8;
-  --border-color: black;
+  --bg-color-google: #F8F8FF;
+  --bg-color-google-hover: #4285f4;
+  --color-google-hover: #F8F8FF;
+  --color-google-blue-rgb: 66, 133, 244;
+  --border-color: #333;
 
   --spacing-xs: 0.5rem;
   --spacing-sm: 1rem;
@@ -31,7 +36,7 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 20px 40px;
   font-family: var(--font-primary);
   font-optical-sizing: auto;
   line-height: 1.5;
@@ -47,4 +52,3 @@ a {
     color: var(--color-secondary);
   }
 }
-
