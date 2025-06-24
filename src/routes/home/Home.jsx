@@ -30,7 +30,7 @@ const Home = () => {
 			id: 5,
 			title: "Men",
 			imageUrl:
-				"https://plus.unsplash.com/premium_photo-1723802552767-859b25edbd71?q=80&w=1148&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+				"https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fG1lbnMlMjBjbG90aGluZ3xlbnwwfHwwfHx8MA%3D%3D",
 		},
 	];
 	return <Directory categories={categories} />;

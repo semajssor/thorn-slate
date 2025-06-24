@@ -110,3 +110,39 @@ export const onAuthStateChangedListener = (callback) => {
 	return onAuthStateChanged(auth, callback);
 }
 
+export const renameCategoryInFirestore = async (oldTitle, newTitle) => {
+	const categoriesCollectionRef = collection(db, 'categories');
+
+	try {
+		 const oldDocId = oldTitle.toLowerCase();
+		 const oldDocRef = doc(categoriesCollectionRef, oldDocId);
+		 const docSnapshot = await getDoc(oldDocRef);
+
+		 if (docSnapshot.exists() && docSnapshot.data().title.toLowerCase() === oldTitle.toLowerCase()) {
+			  const batch = writeBatch(db);
+
+			  const docData = docSnapshot.data();
+
+
+			  const newDocId = newTitle.toLowerCase();
+
+
+			  const newDocRef = doc(categoriesCollectionRef, newDocId);
+
+
+			  batch.set(newDocRef, { ...docData, title: newTitle });
+
+			  batch.delete(oldDocRef);
+
+			  await batch.commit();
+			  console.log(`Successfully renamed category from Document ID: '${oldDocId}' to Document ID: '${newDocId}'.`);
+			  console.log(`Also updated the 'title' field from '${docData.title}' to '${newTitle}'.`);
+		 } else {
+			  console.log(`Category with title/ID '${oldTitle}' not found or title mismatch.`);
+		 }
+
+	} catch (error) {
+		 console.error("Error renaming category:", error);
+		 throw error;
+	}
+};

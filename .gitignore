@@ -11,6 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
+rename_script.js
+thorn-and-slate-db-firebase-adminsdk-fbsvc-b71d8c24de.json
 
 # Editor directories and files
 .vscode/*
