@@ -1,7 +1,7 @@
 <div id="top">
 
 <!-- HEADER STYLE: COMPACT -->
-<img src="./src/assets/Thorn+Slate_logo.svg" width="30%" align="left" style="margin-right: 15px">
+<img src="./src/assets/Thorn+Slate_logo.svg" width="10%" align="left" style="margin-right: 15px">
 
 # THORN-SLATE
 <em>Empowering dynamic E-Commerce website with Thorn + Slate</em>
@@ -737,13 +737,9 @@ Build thorn-slate from the source and intsall dependencies:
 
 3. **Install the dependencies:**
 
-<!-- SHIELDS BADGE CURRENTLY DISABLED -->
-
-	**Using [npm](https://www.npmjs.com/):**
-
-	```sh
-	npm install
-	```
+    ```sh
+    ❯ npm install
+    ```
 
 ### ⚪ Usage
 
@@ -759,7 +755,7 @@ npm start
 ## 🌟 Roadmap
 
 <!-- - [ ] **`Task 1`**: <strike>Implement feature one.</strike> -->
-- [ ] **`Task 1`**: <strike>Implement online payment with Stripe
+- [ ] **`Task 1`**: Implement online payment with Stripe
 - [ ] **`Task 2`**: TBD
 - [ ] **`Task 3`**: TBD
 
