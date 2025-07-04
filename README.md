@@ -3,7 +3,7 @@
 <!-- HEADER STYLE: COMPACT -->
 <img src="./src/assets/Thorn+Slate_logo.svg" width="10%" align="left" style="margin-right: 15px">
 
-# THORN-SLATE
+## THORN + SLATE
 <br/>
 <em>Empowering dynamic E-Commerce website with Thorn + Slate</em>
 <br/>
@@ -11,6 +11,7 @@
 <img src="https://img.shields.io/github/last-commit/semajssor/thorn-slate?style=flat-square&logo=git&logoColor=white&color=E92063" alt="last-commit">
 <img src="https://img.shields.io/github/languages/top/semajssor/thorn-slate?style=flat-square&color=E92063" alt="repo-top-language">
 <img src="https://img.shields.io/github/languages/count/semajssor/thorn-slate?style=flat-square&color=E92063" alt="repo-language-count">
+<br/>
 <br/>
 <em>Built with the tools and technologies:</em>
 <br/>
