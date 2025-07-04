@@ -1,7 +1,7 @@
 <div id="top">
 
 <!-- HEADER STYLE: COMPACT -->
-<div align="center" style="display: flex; justify-content: start; align-items: center;">
+<div style="display: flex; justify-content: start; align-items: center;">
   <img src="./src/assets/Thorn+Slate_logo.svg" width="10%" style="margin-right: 15px;">
   <h1 style="font-size: 2.5em; font-weight: bold; white-space: nowrap;">THORN + SLATE</h1>
 </div>
