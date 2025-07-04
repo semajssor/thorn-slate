@@ -4,15 +4,16 @@
 <img src="./src/assets/Thorn+Slate_logo.svg" width="10%" align="left" style="margin-right: 15px">
 
 # THORN-SLATE
+<br/>
 <em>Empowering dynamic E-Commerce website with Thorn + Slate</em>
-
+<br/>
 <!-- BADGES -->
 <img src="https://img.shields.io/github/last-commit/semajssor/thorn-slate?style=flat-square&logo=git&logoColor=white&color=E92063" alt="last-commit">
 <img src="https://img.shields.io/github/languages/top/semajssor/thorn-slate?style=flat-square&color=E92063" alt="repo-top-language">
 <img src="https://img.shields.io/github/languages/count/semajssor/thorn-slate?style=flat-square&color=E92063" alt="repo-language-count">
 <br/>
 <em>Built with the tools and technologies:</em>
-
+<br/>
 <img src="https://img.shields.io/badge/npm-CB3837.svg?style=flat-square&logo=npm&logoColor=white" alt="npm">
 <img src="https://img.shields.io/badge/Firebase-DD2C00.svg?style=flat-square&logo=Firebase&logoColor=white" alt="Firebase">
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat-square&logo=JavaScript&logoColor=black" alt="JavaScript">
