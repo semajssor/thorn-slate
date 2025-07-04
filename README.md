@@ -1,9 +1,15 @@
 <div id="top">
 
 <!-- HEADER STYLE: COMPACT -->
-<div style="display: flex; justify-content: start; align-items: center;">
-  <img src="./src/assets/Thorn+Slate_logo.svg" width="10%" style="margin-right: 15px;">
-  <span style="font-size: 2.5em; font-weight: bold; white-space: nowrap; horizontal-align: middle;">THORN + SLATE</span>
+<div style="display: flex;
+      align-items: center;
+      justify-content: center;">
+  <img src="./src/assets/Thorn+Slate_logo.svg" 
+  width="10%" 
+  style="margin-right: 15px;">
+  <div>
+  		<span>THORN & SLATE</span>
+	</div>
 </div>
 <br/>
 <em>Empowering dynamic E-Commerce website with Thorn + Slate</em>
