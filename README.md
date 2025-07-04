@@ -3,7 +3,7 @@
 <!-- HEADER STYLE: COMPACT -->
 <div style="display: flex; justify-content: start; align-items: center;">
   <img src="./src/assets/Thorn+Slate_logo.svg" width="10%" style="margin-right: 15px;">
-  <span style="font-size: 2.5em; font-weight: bold; white-space: nowrap; vertical-align: middle;">THORN + SLATE</span>
+  <span style="font-size: 2.5em; font-weight: bold; white-space: nowrap; horizontal-align: middle;">THORN + SLATE</span>
 </div>
 <br/>
 <em>Empowering dynamic E-Commerce website with Thorn + Slate</em>
