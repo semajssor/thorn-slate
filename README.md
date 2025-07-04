@@ -2,8 +2,8 @@
 
 <!-- HEADER STYLE: COMPACT -->
 <div align="center">
-  <img src="./src/assets/Thorn+Slate_logo.svg" width="10%" style="margin-right: 15px; vertical-align: middle;">
-  <h1 style="display: inline-block; vertical-align: middle;">THORN + SLATE</h1>
+  <img src="./src/assets/Thorn+Slate_logo.svg" width="10%" style="vertical-align: middle; margin-right: 15px;">
+  <h1 style="display: inline-block; vertical-align: middle; margin: 0;">THORN + SLATE</h1>
 </div>
 <br/>
 <em>Empowering dynamic E-Commerce website with Thorn + Slate</em>
