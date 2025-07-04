@@ -1,9 +1,10 @@
 <div id="top">
 
 <!-- HEADER STYLE: COMPACT -->
-<img src="./src/assets/Thorn+Slate_logo.svg" width="10%" style="margin-right: 15px; vertical-align: middle;">
-  
-<h2 style="display: inline-block; vertical-align: middle;">THORN + SLATE</h2>
+<div align="center">
+  <img src="./src/assets/Thorn+Slate_logo.svg" width="10%" style="margin-right: 15px; vertical-align: middle;">
+  <h1 style="display: inline-block; vertical-align: middle;">THORN + SLATE</h1>
+</div>
 <br/>
 <em>Empowering dynamic E-Commerce website with Thorn + Slate</em>
 <br/>
