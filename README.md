@@ -1,12 +1,12 @@
 <div id="top">
 
 <!-- HEADER STYLE: COMPACT -->
-<table style="border: none;">
+<table>
   <tr>
-    <td style="border: none; vertical-align: middle;">
+    <td>
       <img src="./src/assets/Thorn+Slate_logo.svg" width="60">
     </td>
-    <td style="border: none; vertical-align: middle; padding-left: 15px;">
+    <td style="padding-left: 15px;">
       <span style="font-size: 2.5em; font-weight: bold; white-space: nowrap;">
         THORN & SLATE
       </span>
