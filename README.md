@@ -1,7 +1,7 @@
 <div id="top">
 
 <!-- HEADER STYLE: COMPACT -->
-# <img src="./src/assets/Thorn+Slate_logo.svg" width="60"> THORN & SLATE 
+# <img src="./src/assets/Thorn+Slate_logo.svg" width="60" style="vertical-align: middle;"> THORN & SLATE
       
 <br/>
 <em>Empowering dynamic E-Commerce website with Thorn & Slate</em>
