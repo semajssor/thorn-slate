@@ -8,7 +8,7 @@
   width="10%" 
   style="margin-right: 15px;">
   <div>
-  		<span>THORN & SLATE</span>
+  		<span style="font-size: 2.5em; font-weight: bold; white-space: nowrap; vertical-align: middle;">THORN & SLATE</span>
 	</div>
 </div>
 <br/>
