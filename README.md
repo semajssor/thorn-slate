@@ -1,18 +1,20 @@
 <div id="top">
 
 <!-- HEADER STYLE: COMPACT -->
-<div style="display: flex;
-      align-items: center;
-      justify-content: center;">
-  <img src="./src/assets/Thorn+Slate_logo.svg" 
-  width="10%" 
-  style="margin-right: 15px;">
-  <div>
-  		<span style="font-size: 2.5em; font-weight: bold; white-space: nowrap; vertical-align: middle;">THORN & SLATE</span>
-	</div>
-</div>
+<table>
+  <tr>
+    <td>
+      <img src="./src/assets/Thorn+Slate_logo.svg" width="60">
+    </td>
+    <td>
+      <span style="font-size: 2em; font-weight: bold; white-space: nowrap;">
+        THORN & SLATE
+      </span>
+    </td>
+  </tr>
+</table>
 <br/>
-<em>Empowering dynamic E-Commerce website with Thorn + Slate</em>
+<em>Empowering dynamic E-Commerce website with Thorn & Slate</em>
 <br/>
 <!-- BADGES -->
 <img src="https://img.shields.io/github/last-commit/semajssor/thorn-slate?style=flat-square&logo=git&logoColor=white&color=E92063" alt="last-commit">
@@ -54,9 +56,9 @@
 
 ## 🔴 Overview
 
-**thorn-slate: Streamlining React Web Development**
+**Thorn & Slate: Streamlining React Web Development**
 
-**Why thorn-slate?**
+**Why Thorn & Slate?**
 
 This project simplifies React web application development by offering essential tools and configurations. The core features include:
 
@@ -76,7 +78,6 @@ This project simplifies React web application development by offering essential 
 | 📄 | **Documentation** | <ul><li>Well-documented code with inline comments explaining complex logic.</li><li>README.md file provides setup instructions and project overview.</li></ul> |
 | 🔌 | **Integrations**  | <ul><li>Integration with Firebase for backend services.</li><li>Utilizes React Router for client-side routing.</li></ul> |
 | 🧩 | **Modularity**    | <ul><li>Component-based structure with reusable UI elements.</li><li>Separation of concerns between UI components and logic.</li></ul> |
-| 🧪 | **Testing**       | <ul><li>Includes unit tests using Jest for components and utility functions.</li><li>Integration tests for key user flows using React Testing Library.</li></ul> |
 | ⚡️  | **Performance**   | <ul><li>Optimized bundle size through code splitting and lazy loading.</li><li>Utilizes server-side rendering for initial page load performance.</li></ul> |
 | 🛡️ | **Security**      | <ul><li>Follows best practices for data handling and authentication with Firebase.</li><li>Sanitizes user inputs to prevent XSS attacks.</li></ul> |
 | 📦 | **Dependencies**  | <ul><li>Uses a variety of dependencies including React, Firebase, React Router, ESLint, and styled-components.</li><li>Dependencies managed through npm with package-lock.json for version locking.</li></ul> |
@@ -730,7 +731,7 @@ This project requires the following dependencies:
 
 ### ⚫ Installation
 
-Build thorn-slate from the source and intsall dependencies:
+Build Thorn & Slate from the source and intsall dependencies:
 
 1. **Clone the repository:**
 
