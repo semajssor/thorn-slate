@@ -1,18 +1,8 @@
 <div id="top">
 
 <!-- HEADER STYLE: COMPACT -->
-<table>
-  <tr>
-    <td>
-      <img src="./src/assets/Thorn+Slate_logo.svg" width="60">
-    </td>
-    <td style="padding-left: 15px;">
-      <span style="font-size: 2.5em; font-weight: bold; white-space: nowrap;">
-        THORN & SLATE
-      </span>
-    </td>
-  </tr>
-</table>
+# <img src="./src/assets/Thorn+Slate_logo.svg" width="60"> THORN & SLATE 
+      
 <br/>
 <em>Empowering dynamic E-Commerce website with Thorn & Slate</em>
 <br/>
